@@ -239,8 +239,8 @@ button:active {
   <div class="container">
     <!-- To Section -->
     <div class="input-section">
-      <label for="recipient">Recipient's Email</label>
-      <input type="email" id="recipient" placeholder="Enter recipient's email" aria-label="Recipient's email">
+      <label for="recipient">Recipient's name</label>
+      <input type="name" id="recipient" placeholder="Enter recipient's name" aria-label="Recipient's name">
     </div>
 
     <!-- Subject Section -->
@@ -320,7 +320,7 @@ button:active {
                   {
                     parts: [
                       {
-                        text: `Expand the following email draft into a detailed, professional email. Stick closely to the draft and avoid adding unrelated information.\n\nRecipient: ${recipient}\nSubject: ${subject}\n\nDraft: ${draftEmail}\n\nPlease focus on enhancing the content based on this information. Don't provide placeholders, and give it ready to send. Add something like "Hope you are doing fine.\ndon't include in the email the ending like Sincerely and dont include sender informations"`
+                        text: `Expand the following email draft into a detailed, professional email. Stick closely to the draft and avoid adding unrelated information.\n\nRecipient name:Dear ${recipient}\nSubject: ${subject}\n\nDraft: ${draftEmail}\n\nPlease focus on enhancing the content based on this information. Don't provide placeholders, and give it ready to send. Add something like "Hope you are doing fine.\ndon't include in the email the ending like Sincerely and dont include sender informations"`
                       },
                     ],
                   },
