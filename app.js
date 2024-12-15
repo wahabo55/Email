@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const subjectInput = document.getElementById('subject'); // Subject field
 
     // Replace with your actual API Key from Google Cloud
-    const apiKey = 'AIzaSyBOXgrBPhz01fPXrd_1_UEGhP2_iE9RCpA'; // API key for Google AI Studio
+    const apiKey = 'AIzaSyAzwOyPNpjFAqd7rz9EE4GeDGP2j9y8u8s'; // API key for Google AI Studio
   
     generateButton.addEventListener('click', async () => {
       const draftEmail = input.value;
